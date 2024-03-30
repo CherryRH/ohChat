@@ -44,7 +44,7 @@ struct Index {
       Tabs({ barPosition: BarPosition.End }) {
         TabContent() {
           Column() {
-            Header({title: 'JigenChat', handleAddButtonClicked: this.onChatListAddButtonClick})
+            Header({title: 'JigenChat'})
             ChatList({chatItems: this.chatItems})
           }
           .mainPageStyle()
@@ -53,7 +53,7 @@ struct Index {
         .backgroundColor($r('app.color.index_background'))
         TabContent() {
           Column() {
-            Header({title: '通讯录', handleAddButtonClicked: this.onContactListAddButtonClick})
+            Header({title: '通讯录'})
             ContactList()
           }
           .mainPageStyle()
@@ -62,7 +62,7 @@ struct Index {
         .backgroundColor($r('app.color.index_background'))
         TabContent() {
           Column() {
-            Header({title: '发现', handleAddButtonClicked: this.onFindListAddButtonClick})
+            Header({title: '发现'})
             FindList()
           }
           .mainPageStyle()
