@@ -1,5 +1,9 @@
 import preferences from '@ohos.data.preferences'
 
+/*
+ * 用户首选项工具类
+ * */
+
 class UserPreferenceUtil {
   //日志Tag
   logTag: string = 'TestTag'

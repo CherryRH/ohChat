@@ -2,6 +2,7 @@ import { DEFAULT } from '@ohos/hypium';
 import Message from '../classes/Message';
 import FeatureCard, { ChatCard, ChaterCard, UserCard } from '../components/featureCard'
 
+//卡片的构造函数
 @Builder
 export default function buildFeatureCard(item: CardItem) {
   if (item.type === Card_Type.Feature) {
@@ -18,6 +19,7 @@ export default function buildFeatureCard(item: CardItem) {
   }
 }
 
+//用来显示卡片信息
 export class CardItem {
   ID: number;
   name: string;
@@ -40,6 +42,7 @@ export class CardItem {
   }
 }
 
+//卡片种类
 export enum Card_Type {
   Feature,
   USER,

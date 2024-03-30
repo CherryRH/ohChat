@@ -2,6 +2,7 @@ import Chat from '../classes/Chat'
 import user from './user'
 import getAssistant from './aichater'
 
+//所有聊天信息的数据库
 class Chats {
   private chatArr: Chat[] = []
 
@@ -19,6 +20,7 @@ class Chats {
   }
 }
 
+//用来显示聊天卡片信息的接口，仅包含聊天的简单信息
 interface basicChat {
   name: string,
   iconUrl: Resource,

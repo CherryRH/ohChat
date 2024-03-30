@@ -27,6 +27,7 @@ struct Index {
     console.log(user.getId());
   }
 
+  //一些页头的按钮事件处理函数
   onChatListAddButtonClick() {
 
   }

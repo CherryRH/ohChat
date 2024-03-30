@@ -1,5 +1,6 @@
 import router from '@ohos.router'
 
+//路由函数的封装
 export default function routerIndexPage() {
   router.pushUrl(
     {
